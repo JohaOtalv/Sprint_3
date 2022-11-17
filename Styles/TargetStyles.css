@@ -1,0 +1,336 @@
+.properties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding-top: 8%;
+}
+
+#propertiesp {
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#propertiesh1 {
+    margin-top: 0%;
+    font-size: 56px;
+}
+
+#unId {
+    display: flex;
+    margin-top: 5%;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+
+.targets img {
+    position: relative;
+    border-radius: 8px;
+    z-index: 0;
+    width: 100%;
+
+}
+
+.targets {
+    display: flex;
+
+}
+
+.idTargets {
+    display: flex;
+    margin-top: 2%;
+    width: 30%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 1%;
+    border-radius: 15px;
+    margin-bottom: 3%;
+    justify-content: center;
+}
+
+
+#type {
+    display: flex;
+    background-color: #2A42E8;
+    margin-top: 2%;
+    margin-left: 1%;
+    position: absolute;
+    z-index: 1;
+    height: 5%;
+    width: 7%;
+    color: white;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#trans {
+    display: flex;
+    background-color: #FF5E15;
+    margin-top: 2%;
+    margin-left: 9%;
+    position: absolute;
+    z-index: 1;
+    height: 5%;
+    width: 7%;
+    color: white;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#price {
+    display: flex;
+    color: #2A42E8;
+    font-weight: 900;
+    align-items: flex-end;
+    background-color: white;
+    margin-bottom: 40%;
+    height: 40px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#sup2 {
+    display: flex;
+    margin-left: 1%;
+    height: 40%;
+    width: 7%;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+#propertiesButton {
+    background-color: black;
+    border-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 20%;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.dataProp p {
+    margin-left: 5%;
+}
+
+#cardInf {
+    display: flex;
+    flex-direction: row;
+}
+
+#cardInf img {
+    width: 20px;
+    height: 20px;
+}
+
+.areaCard {
+    margin-right: 100px;
+}
+
+.areas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 80%;
+}
+
+#areaChild1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2%;
+    margin-bottom: 2%;
+}
+
+#areaChild2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2%;
+}
+
+#snfco {
+    width: 100%;
+    height: 100%;
+}
+
+#sea {
+    width: 100%;
+    height: 100%;
+}
+
+#sndiego {
+    height: 100%;
+}
+
+#angeles {
+    height: 100%;
+}
+
+.agents {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-direction: row;
+    margin-top: 5%;
+    background-color: #F2F2F2;
+}
+
+#agent1 {
+    width: 30%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 2%;
+}
+
+#agent2 {
+    width: 30%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 2%;
+}
+
+#agent3 {
+    width: 30%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 2%;
+}
+
+.agentsProperties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: #F2F2F2;
+}
+
+.agents p h1 {
+    justify-content: start;
+}
+
+.agents img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.recProperties {
+    width: 1736px;
+    height: 870px;
+    background-image: url(../images/hero-bg-image.png);
+    background-repeat: no-repeat;
+}
+
+#rectangle {
+    background: #2842CD;
+    border-radius: 6px;
+    color: white;
+    Width: 600px;
+    Height: 300px;
+    align-items: center;
+    padding: 5%;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.agenciesProperties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    background-color: #F2F2F2;
+}
+
+.agencies {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-direction: row;
+    margin-top: 5%;
+    background-color: #F2F2F2;
+}
+
+.agencies img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#agenciesh {
+    text-align: center;
+}
+
+#flag {
+    width: 10%;
+}
+
+#agenciesButton {
+    background-color: #EAEDFD;
+    color: #2A41E8;
+    border-color: #EAEDFD;
+    margin-left: 20%;
+    margin-right: 25%;
+}
+
+#clock {
+    width: 5%;
+}
+
+#articleButton {
+    height: 10%;
+    margin-top: 3%;
+    margin-left: 0%;
+}
+
+#articleh {
+    font-size: medium;
+}
+
+#valuesh {
+    font-size: 30px;
+}
+
+#star {
+    padding: 2%;
+    margin-top: 3%;
+}
+
+#star:hover {
+    background-color: #2842CD;
+}
+
+@media screen and (max-width:900px) {
+
+    #unId {
+        display: flex;
+        margin-top: 5%;
+        width: 80%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 15px;
+        margin-bottom: 3%;
+    }
+}

@@ -1,0 +1,324 @@
+{
+    "Propiedades": [
+        {
+            "id": 1,
+            "imagen": "./images/Property Image.png",
+            "nombre": "Vaarhus",
+            "direccion": "192 West Division",
+            "ubicacion": "Los Angeles",
+            "area": 90,
+            "habitaciones": 3,
+            "baños": 2,
+            "tipo": "apartamento",
+            "transaccion": "arriendo",
+            "precio": 1.600,
+            "parqueaderos": 1,
+            "propietario": "Doña Gloria",
+            "status": 1,
+            "Descripcion": "In a Small town near west"
+        },
+        {
+            "id": 2,
+            "imagen": "./images/Property2.png",
+            "nombre": "Possaasen",
+            "direccion": "8457 Victoria Street",
+            "ubicacion": "San Francisco",
+            "area": 120,
+            "habitaciones": 4,
+            "baños": 3,
+            "tipo": "finca",
+            "transaccion": "venta",
+            "precio": 367.100,
+            "parqueaderos": 1,
+            "propietario": "Betty la fea",
+            "status": 1,
+            "Descripcion": "A great place to live"
+        },
+        {
+            "id": 3,
+            "imagen": "./images/Property3.png",
+            "nombre": "Bakkemo",
+            "direccion": "756 Lake Forest Road",
+            "ubicacion": "Seattle",
+            "area": 300,
+            "habitaciones": 7,
+            "baños": 4,
+            "tipo": "bodega",
+            "transaccion": "arriendo",
+            "precio": 1.600,
+            "parqueaderos": 1,
+            "propietario": "Santiago",
+            "status": 1,
+            "Descripcion": "your oportunity to be happy"
+        },
+        {
+            "id": 4,
+            "imagen": "./images/Property4.png",
+            "nombre": "Vestvatnli",
+            "direccion": "49 Carson",
+            "ubicacion": "San Diego",
+            "area": 80,
+            "habitaciones": 3,
+            "baños": 2,
+            "tipo": "casa",
+            "transaccion": "venta",
+            "precio": 398.100,
+            "parqueaderos": 1,
+            "propietario": "Daniel",
+            "status": 1,
+            "Descripcion": "a beautiful property near lake"
+        },
+        {
+            "id": 5,
+            "imagen": "./images/Property5.png",
+            "nombre": "Ramnes",
+            "direccion": "625 Evergreen",
+            "ubicacion": "Los Angeles",
+            "area": 75,
+            "habitaciones": 2,
+            "baños": 1,
+            "tipo": "apartamento",
+            "transaccion": "arriendo",
+            "precio": 1.600,
+            "parqueaderos": 1,
+            "propietario": "Carlos",
+            "status": 1,
+            "Descripcion": "the house of your dreams"
+        },
+        {
+            "id": 6,
+            "imagen": "./images/Property6.png",
+            "nombre": "Evenesdalen",
+            "direccion": "155 Windsor Avenue",
+            "ubicacion": "San Francisco",
+            "area": 95,
+            "habitaciones": 4,
+            "baños": 2,
+            "tipo": "casa",
+            "transaccion": "venta",
+            "precio": 467.100,
+            "parqueaderos": 1,
+            "propietario": "Rose la del Titanic",
+            "status": 1,
+            "Descripcion": "amazing"
+        },
+        {
+            "id": 7,
+            "imagen": "./images/Property7.jpg",
+            "nombre": "Engelsvikö",
+            "direccion": "67 Peachtree Street",
+            "ubicacion": "Seattle",
+            "area": 70.2,
+            "habitaciones": 3,
+            "baños": 2,
+            "tipo": "apartamento",
+            "transaccion": "arriendo",
+            "precio": 1.600,
+            "parqueaderos": 1,
+            "propietario": "Paquita la del barrio",
+            "status": 1,
+            "Descripcion": "The house you searching"
+        },
+        {
+            "id": 8,
+            "imagen": "./images/Property8.jpg",
+            "nombre": "Tverrdal",
+            "direccion": "7701 Marshall",
+            "ubicacion": "San Diego",
+            "area": 450,
+            "habitaciones": 0,
+            "baños": 0,
+            "tipo": "terreno",
+            "transaccion": "venta",
+            "precio": 872.100,
+            "parqueaderos": 0,
+            "propietario": "Suso",
+            "status": 1,
+            "Descripcion": "My favorite place in the world"
+        },
+        {
+            "id": 9,
+            "imagen": "./images/Property9.jpg",
+            "nombre": "Oni",
+            "direccion": "79 Oklahoma Drive",
+            "ubicacion": "Los Angeles",
+            "area": 150,
+            "habitaciones": 5,
+            "baños": 3,
+            "tipo": "finca",
+            "transaccion": "arriendo",
+            "precio": 1.600,
+            "parqueaderos": 1,
+            "propietario": "Esperanza Gomez",
+            "status": 1,
+            "Descripcion": "Unforggetable"
+        },
+        {
+            "id": 10,
+            "imagen": "./images/Property10.jpg",
+            "nombre": "Erve",
+            "direccion": "419 1st St",
+            "ubicacion": "San Francisco",
+            "area": 65,
+            "habitaciones": 1,
+            "baños": 1,
+            "tipo": "local",
+            "transaccion": "venta",
+            "precio": 527.100,
+            "parqueaderos": 1,
+            "propietario": "Marbelle",
+            "status": 1,
+            "Descripcion": "Beautiful property"
+        }
+    ],
+    "Tipos": [
+        {
+            "id": 1,
+            "nombre": "apartamento"
+        },
+        {
+            "id": 2,
+            "nombre": "casa"
+        },
+        {
+            "id": 3,
+            "nombre": "finca"
+        },
+        {
+            "id": 4,
+            "nombre": "local"
+        },
+        {
+            "id": 5,
+            "nombre": "bodega"
+        },
+        {
+            "id": 6,
+            "nombre": "terreno"
+        }
+    ],
+    "Ubicacion": [
+        {
+            "id": 1,
+            "nombre": "Los Angeles"
+        },
+        {
+            "id": 2,
+            "nombre": "San Francisco"
+        },
+        {
+            "id": 3,
+            "nombre": "Seattle"
+        },
+        {
+            "id": 4,
+            "nombre": "San Diego"
+        }
+    ],
+    "Estados": [
+        {
+            "id": 1,
+            "nombre": "disponible"
+        },
+        {
+            "id": 2,
+            "nombre": "vendido"
+        },
+        {
+            "id": 3,
+            "nombre": "rentado"
+        }
+    ],
+    "Transacciones": [
+        {
+            "id": 1,
+            "nombre": "arriendo"
+        },
+        {
+            "id": 2,
+            "nombre": "venta"
+        }
+    ],
+    "Clientes": [
+        {
+            "id": 1,
+            "nombre": "JUAN",
+            "apellido": "GONZALEZ",
+            "documento": "3355271795",
+            "telefono": "342-8631",
+            "email": "jgonzaf@gmail.com"
+        },
+        {
+            "id": 2,
+            "nombre": "INGRID",
+            "apellido": "ABARCA",
+            "documento": "4889271206",
+            "telefono": "550-1675",
+            "email": "iabarcae@yahoo.es"
+        },
+        {
+            "id": 3,
+            "nombre": "CARLOS",
+            "apellido": "BRAVO",
+            "documento": "4435091537",
+            "telefono": "762-0356",
+            "email": "cibravohuerta@yahoo.com"
+        },
+        {
+            "id": 4,
+            "nombre": "PABLO",
+            "apellido": "CALDERON",
+            "documento": "7778201509",
+            "telefono": "644-2182",
+            "email": "pablo.calderon.cadiz@gmail.com"
+        },
+        {
+            "id": 5,
+            "nombre": "RAUL",
+            "apellido": "CAÑAS",
+            "documento": "3150852839",
+            "telefono": "658-3916",
+            "email": "raulcd02ster@gmail.com"
+        },
+        {
+            "id": 6,
+            "nombre": "ANDREA",
+            "apellido": "ESPINOZA",
+            "documento": "3783423640",
+            "telefono": "300-2557",
+            "email": "aespinz@hotmail.com"
+        },
+        {
+            "id": 7,
+            "nombre": "MARIO",
+            "apellido": "ZAMARA",
+            "documento": "3783423640",
+            "telefono": "162-1585",
+            "email": "mzamara@gmail.com"
+        },
+        {
+            "id": 8,
+            "nombre": "KARIN",
+            "apellido": "ZIMMERMAN",
+            "documento": "8129887863",
+            "telefono": "258-3799",
+            "email": "karin.zimmermann@chartisinsurance.com"
+        },
+        {
+            "id": 9,
+            "nombre": "LUCIO",
+            "apellido": "HERNANDEZ",
+            "documento": "7750173033",
+            "telefono": "109-6666",
+            "email": "cuchoava01@gmail.com"
+        },
+        {
+            "id": 10,
+            "nombre": "MAURICIO",
+            "apellido": "TORRES",
+            "documento": "3352083558",
+            "telefono": "874-8593",
+            "email": "mauriciotorres_7@yahoo.com"
+        }
+    ]
+}

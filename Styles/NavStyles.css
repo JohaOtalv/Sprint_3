@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navInfo {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #2a41e8;
+    color: white;
+    text-align: center;
+    height: 54px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 50%;
+    margin-left: 3%;
+    align-items: center;
+}
+
+#login {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    margin-right: 3%;
+    align-items: center;
+}
+
+#login h2:hover {
+    content: '';
+    display: none;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: #EFEFEF;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: start;
+    align-items: center;
+}
+
+.compare {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+    gap: 5%;
+}
+
+.comparechild {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.psubmit {
+    display: flex;
+    height: 100%;
+    background-color: #FF5E14;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#psubmit {
+    margin-right: 2px;
+    margin-left: 2px;
+    color: white;
+}
+
+#logo {
+    height: 50%;
+}
+
+.pbar {
+    margin-left: 3%;
+}
+
+.Banner {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.p {
+    display: block;
+    color: white;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pBanner {
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+form {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    color: gray;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+
+button {
+    background-color: #2a41e8;
+    color: white;
+    height: 60px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #2a41e8;
+    font-size: large;
+    font-weight: 200;
+    margin: 2%;
+}
+
+button:hover {
+    box-shadow: inset 0 0 20px rgba(172, 94, 49, 0.5), 0 0 20px rgba(172, 98, 49, 0.4);
+    outline-color: rgba(172, 127, 49, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #ECECEC;
+    border: 1px solid #ECECEC;
+}
+
+@media screen and (max-width:900px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navInfo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2%;
+        width: auto;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2%;
+        height: 100px;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+    }
+
+    .bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .compare {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        margin-left: 3%;
+        align-items: center;
+    }
+
+    #login {
+        align-items: center;
+        margin: 1%;
+        justify-content: center;
+    }
+
+    .psubmit {
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    #form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+}

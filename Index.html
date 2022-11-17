@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/NavStyles.css">
+    <link rel="stylesheet" href="./Styles/TargetStyles.css">
+    <title>Casa Royal</title>
+</head>
+
+<body>
+    <div class="navInfo">
+        <div class="info">
+            <div class="information">
+                <p id="adress">
+                    1441 Market St. San Francisco
+                </p>
+                <p id="phone">
+                    (123)456-7890
+                </p>
+                <p id="hour">
+                    Mon - Sun: 8:00am - 6:00pm
+                </p>
+            </div>
+            <div id="login">
+                <h2>Login/Register</h2>
+            </div>
+        </div>
+        <nav class="navBar">
+            <div class="bar">
+                <img id="logo" src="./images/logo.png" alt="">
+                <div class="pbar"><a href="#homepage">HOMEPAGE</a></div>
+                <div class="pbar"><a href="#properties">PROPERTIES</a></div>
+                <div class="pbar"><a href="#agents">AGENTS</a></div>
+                <div class="pbar"><a href="#locations">LOCATIONS</a></div>
+                <div class="pbar"><a href="#contact">CONTACT</a></div>
+                <div class="pbar"><a href="./Favoritos.html">FAVORITES</a></div>
+            </div>
+            <div class="compare">
+                <div class="comparechild">
+                    <p>COMPARE</p>
+                </div>
+                <div class="psubmit">
+                    <p id="psubmit">SUBMIT LISTING</p>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="Banner" id="homepage">
+        <div class="p">
+            <h1>Let Us Guide You Home</h1>
+            <p id="pBanner"> Find the house of your dreams</p>
+
+            <form name="form" id="form">
+                <section>
+                    <select id="tipos">
+                        <option value="">Select Type</option>
+                        <option value="apartamento">apartamento</option>
+                        <option value="casa">casa</option>
+                        <option value="finca">finca</option>
+                        <option value="local">local</option>
+                        <option value="bodega">bodega</option>
+                        <option value="terreno">terreno</option>
+                    </select>
+                </section>
+                <section>
+                    <select id="transaccion">
+                        <option value="">Select transaccion</option>
+                        <option value="arriendo">Arriendo</option>
+                        <option value="venta">Venta</option>
+
+                    </select>
+                </section>
+                <section>
+                    <select id="ubicacion">
+                        <option value="">Select Location</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                        <option value="San Francisco">San Francisco</option>
+                        <option value="Seattle">Seattle</option>
+                        <option value="San Diego">San Diego</option>
+                    </select>
+                </section>
+                <button type="submit">FIND PROPERTIES</button>
+            </form>
+        </div>
+    </div>
+    <div class="properties" id="properties">
+        <div class="header">
+            <p id="propertiesp">CASAROYAL REAL ESTATE AGENCY</p>
+            <h1 id="propertiesh1"> <b>Featured</b> Properties </h1>
+        </div>
+        <container id="unId"></container>
+        <button id="propertiesButton">ALL PROPERTIES</button>
+    </div>
+    <div class="properties">
+        <div class="header">
+            <p id="propertiesp">CASAROYAL REAL ESTATE AGENCY</p>
+            <h1 id="propertiesh1"> <b>Properties</b> By Area </h1>
+        </div>
+        <div class="areas" id="locations">
+            <div id="areaChild1">
+                <div id="item1">
+                    <img id="angeles" src="./images/Area Block 1.png" alt="">
+                </div>
+                <div id="item2">
+                    <img id="snfco" src="./images/Area Block 2.png" alt="">
+                </div>
+            </div>
+            <div id="areaChild2">
+                <div id="item3">
+                    <img id="sea" src="./images/Area Block 3.png" alt="">
+                </div>
+                <div id="item4">
+                    <img id="sndiego" src="./images/Area Block 4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="agentsProperties" id="agents">
+        <div class="agentsHeader">
+            <p id="propertiesp">MEET OUR TEAM</p>
+            <h1 id="propertiesh1"> <b>Our</b> Agents</h1>
+        </div>
+        <div class="agents">
+            <div id="agent1">
+                <img id="" src="./images/Agent1.png" alt="">
+                <p id="propertiesp">Real Estate Broker</p>
+                <h1>JOHN DOE</h1>
+                <p id="agentsp">123 456 7890 <br> johnd@casaroyal.com</p>
+            </div>
+            <div id="agent2">
+                <img id="" src="./images/Agent2.png" alt="">
+                <p id="propertiesp">Real Estate Broker</p>
+                <h1>JANE LEE</h1>
+                <p id="agentsp">321 654 0987 <br> janel@casaroyal.com</p>
+            </div>
+            <div id="agent3">
+                <img id="" src="./images/Agent3.png" alt="">
+                <p id="propertiesp">Real Estate Broker</p>
+                <h1>LIAM SCOTT</h1>
+                <p id="agentsp">213 546 8970 <br> liams@casaroyal.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="recProperties">
+        <div id="rectangle">
+            <h1> Want to sell property?</h1>
+            <p>Let us create a tallored strategic marketing plan and keep track of the selling process.</p>
+            <button id="propertiesButton">MORE DETAILS</button>
+        </div>
+    </div>
+    <div class="agenciesProperties">
+        <div class="agentsHeader">
+            <p id="propertiesp">MEET OUR TEAM</p>
+            <h1 id="propertiesh1"> <b>Real Estate</b> Agencies</h1>
+        </div>
+        <div class="agencies">
+            <div id="agent1">
+                <img id="" src="./images/Logo1.png" alt="">
+                <p id="propertiesp"> <img id="flag" src="./images/FlagUsa.png"> San Francisco USA</p>
+                <h1 id="agenciesh">ProHouse</h1>
+                <p id="agenciesh">123 456 7890 <br> ProHouse@casaroyal.com</p>
+                <button id="agenciesButton">3 Properties</button>
+            </div>
+            <div id="agent2">
+                <img id="" src="./images/Logo2.png" alt="">
+                <p id="propertiesp"><img id="flag" src="./images/FlagUsa.png"> Los Angeles USA</p>
+                <h1 id="agenciesh">BeHome</h1>
+                <p id="agenciesh">321 654 0987 <br> BeHome@casaroyal.com</p>
+                <button id="agenciesButton">3 Properties</button>
+            </div>
+            <div id="agent3">
+                <img id="" src="./images/Logo3.png" alt="">
+                <p id="propertiesp"><img id="flag" src="./images/FlagUsa.png"> Seattle USA</p>
+                <h1 id="agenciesh">Alain Doe</h1>
+                <p id="agenciesh">213 546 8970 <br> AlainDoe@casaroyal.com</p>
+                <button id="agenciesButton">3 Properties</button>
+            </div>
+        </div>
+        <div class="agenciesProperties">
+            <div class="agentsHeader">
+                <p id="propertiesp">CASAROYAL NEWS</p>
+                <h1 id="propertiesh1"> <b>Articles</b> & Tips</h1>
+            </div>
+            <div class="agencies">
+                <div id="agent1">
+                    <img id="" src="./images/Article1.png" alt="">
+                    <button id="articleButton">Category</button>
+                    <h1 id="articleh">BUYING A HOME</h1>
+                    <p id="articlep"><img id="clock" src="./images/clock.png"> DECEMBER 28, 2018</p>
+                </div>
+                <div id="agent2">
+                    <img id="" src="./images/Article2.png" alt="">
+                    <button id="articleButton">Category</button>
+                    <h1 id="articleh">PROS AND CONS ON A COUNTRYSIDE HOUSE</h1>
+                    <p id="articlep"> <img id="clock" src="./images/clock.png"> DECEMBER 28, 2018</p>
+                </div>
+                <div id="agent3">
+                    <img id="" src="./images/Article3.png" alt="">
+                    <button id="articleButton">Category</button>
+                    <h1 id="articleh">BUYING A HOME</h1>
+                    <p id="articlep"><img id="clock" src="./images/clock.png"> DECEMBER 28, 2018</p>
+                </div>
+            </div>
+            <button id="propertiesButton">MORE ARTICLES AND TIPS</button>
+        </div>
+        <div class="agenciesProperties">
+            <div class="agentsHeader">
+                <p id="propertiesp">CASAROYAL ESTATE AGENCY</p>
+                <h1 id="propertiesh1"> <b>Our</b> Values</h1>
+            </div>
+            <div class="agencies">
+                <div id="agent1">
+                    <h1 id="valuesh">Ensuring clear comunication</h1>
+                    <p id="articlep"> We keep you in the loop every step of the way. You can rely on a transparent,
+                        comprehensible flow of information</p>
+                </div>
+                <div id="agent2">
+                    <h1 id="valuesh">Making the most of tecnology</h1>
+                    <p id="articlep"> Time is precious. We guarantee a high degree of efficiency and a premium level
+                        of service by using the right tools.</p>
+                </div>
+                <div id="agent3">
+                    <h1 id="valuesh">Providing excellent customer service</h1>
+                    <p id="articlep">We are passionate about what we do and we take pride in achieving the
+                        personalised results that you have in mind.</p>
+                </div>
+            </div>
+            <button id="propertiesButton">READ MORE</button>
+        </div>
+        <img src="./images/Testimonials.png" alt="">
+        <footer id="contact">
+            <img src="./images/Footer.png" alt="">
+        </footer>
+        <script src="./Script.js"></script>
+        <script src="./Favoritos.js"></script>
+</body>
+
+</html>
